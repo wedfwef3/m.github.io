@@ -71,7 +71,6 @@ local Tabs = {
     })
 }
 
-
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -89,9 +88,9 @@ local selectedPlayerName = nil
 
 local PlayerDropdown = Tabs.Random:CreateDropdown({
     Name = "Select Player",
-    Values = getPlayerNamesForDropdown(),
-    CurrentValue = nil,
-    Multi = false,
+    Options = getPlayerNamesForDropdown(),
+    CurrentOption = nil,
+    MultipleOptions = false,
     Callback = function(option)
         selectedPlayerName = option
     end
@@ -118,6 +117,6 @@ Tabs.Random:CreateButton({
     Name = "Refresh Player List",
     Description = nil,
     Callback = function()
-        PlayerDropdown:Set({ Values = getPlayerNamesForDropdown() })
+        PlayerDropdown:Set({ Options = getPlayerNamesForDropdown() })
     end
 })
