@@ -1,15 +1,15 @@
 local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Luna-Interface-Suite/refs/heads/master/source.lua", true))()
 
 local Window = Luna:CreateWindow({
-    Name = "RINGTA",
-    Subtitle = "discord.gg/ringta",
+    Name = "test",
+    Subtitle = "test",
     LogoID = "82795327169782",
     LoadingEnabled = true,
-    LoadingTitle = "RINGTA loading",
-    LoadingSubtitle = "discord.gg/ringta",
+    LoadingTitle = "test",
+    LoadingSubtitle = "test",
     ConfigSettings = {
         RootFolder = nil,
-        ConfigFolder = "Big Hub"
+        ConfigFolder = "test"
     },
     KeySystem = false
 })
