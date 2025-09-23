@@ -2,7 +2,7 @@ local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-S
 
 local Window = Luna:CreateWindow({
     Name = "RINGTA",
-    Subtitle = nil,
+    Subtitle =        "discord.gg/ringta",
     LogoID = "82795327169782",
     LoadingEnabled = true,
     LoadingTitle = "RINGTA loading",
